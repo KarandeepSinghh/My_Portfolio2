@@ -1,0 +1,266 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.box1
+{
+    height: 100vh;
+    width: 100%;
+   background-color:white;
+    background-size: cover;
+    background-position: center;
+    display: table;
+    background-attachment: fixed; 
+    background-image: url(images/a.jpg);
+}
+.container .contbox1
+{
+  width: 50%;
+  color: black;
+  font-size: 3vw;
+  font-family: arial;
+  text-align: center;
+  /* background:rgba(0,0,0,0.3); */
+  padding: 10px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  border-bottom: 2px solid black;
+  border-right: 2px solid black;
+
+  box-shadow: 30px 30px 20px rgba(0,0,0,0.2);
+
+}
+.auto-type
+	{
+		
+		color: transparent;
+		-webkit-text-stroke: 1px black;
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+		letter-spacing: 2px;
+    font-size: 25px;
+		
+	}
+  #slide-right
+	{
+		animation: slideleft 1s linear infinite forwards;
+		opacity: 0;
+		transform: translateY(100px);
+		animation: moveup 1s linear forwards;
+	}
+	@keyframes moveup
+	{
+		100%
+		{
+			transform: translateY(0px);
+			opacity: 1;
+		}
+	}
+  @media only screen and (max-width:768px)
+    {
+        .box1 .contbox1
+        {
+            
+            margin-left: -40px;
+          
+            margin-top: 30px;
+           width: 100%;
+            border: none;
+        }
+        .karan 
+        {
+            margin-left: 0;
+            font-size: 20px;
+        }
+        .btn
+        {
+            margin-top: 10px;
+            padding: 10px 10px 10px 10px;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .abc
+        {
+         font-size: 30px;
+        }
+    }
+    .card {
+      margin-top: 30px;
+      text-align: center;
+  }
+  
+  .card {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-clip: border-box;
+      border: 1px solid rgba(0,0,0,.125);
+      border-radius: 0.25rem;
+  }
+  
+  .card-header{
+      background-color: white;
+      color: black;
+      font-size: 50px;
+      font-family: 'Times New Roman', Times, serif;
+      padding-bottom: 10px;
+      border-bottom: 2px solid black;
+      
+  }
+.row .col-lg-5
+{
+ 
+
+}
+.row .col-lg-7
+{
+  margin-top: 150px;
+
+}
+.abt
+{
+
+}
+.box2
+{
+  height: 100vh;
+  width: 100%;
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+  display: table;
+  background-attachment: fixed;
+  background-color: black;
+ 
+}
+.sklpart
+{
+  font-size: 25px;
+}
+
+
+.container .row .col-lg-4:hover
+{
+   transition: 1s;
+   transform: scale(110%);
+
+}
+
+.navbar-nav .nav-item .nav-link
+{
+  border-right: 2px solid white;
+  padding-right: 50px;
+  padding-left: 50px;
+  margin-right: 0px ;
+}
+
+@media only screen and (max-width:1400px)
+{
+.navbar-nav .nav-item .nav-link
+{
+  border-right: none;
+  padding-left: 0px;
+}
+.container .row .col-lg-4
+{
+display: flex;
+justify-content: space-evenly;
+flex-wrap: wrap;
+margin-top: 10px;
+}
+}
+
+.flw
+{
+  color:#fff ;
+  
+}
+.myname1
+{
+  font-size: 15px;
+  color: white;
+}
+h4
+{
+  color: white;
+}
+
+
+ul.social-network 
+	{
+		list-style: none;
+		display: inline;
+		margin-left:0 !important;
+		padding: 0;
+	}
+	ul.social-network li 
+	{
+		display: inline;
+		margin: 0 5px;
+	}
+	.social-network a.icoRss:hover 
+	{
+		background-color: #F56505;
+	}
+	.social-network a.icoFacebook:hover 
+	{
+		background-color:#3B5998;
+	}
+	.social-network a.icoTwitter:hover 
+	{
+		background-color:#33ccff;
+	}
+	.social-network a.icoGoogle:hover 
+	{
+		background-color:#BD3518;
+	}
+	.social-network a.icoVimeo:hover 
+	{
+		background-color:#0590B8;
+	}
+	.social-network a.icoLinkedin:hover 
+	{
+		background-color:#007bb7;
+	}
+	.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
+	.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
+		color:#fff;
+	}
+	a.socialIcon:hover, .socialHoverClass {
+		color:#44BCDD;
+	}
+
+	.social-circle li a 
+	{
+		display:inline-block;
+		position:relative;
+		margin:0 auto 0 auto;
+		border-radius:50%;
+		text-align:center;
+		width: 50px;
+		height: 50px;
+		font-size:20px;
+	}
+	.social-circle li i 
+	{
+		margin:0;
+		line-height:50px;
+		text-align: center;
+	}
+
+	.social-circle li a:hover i, .triggeredHover 
+	{
+		
+		transform: rotate(360deg);
+		transition: all 0.2s;
+	}
+	.social-circle i 
+	{
+		color: white;
+		transition: all 0.8s;
+	}
+
+  
